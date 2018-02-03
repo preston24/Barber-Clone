@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+}
+
+nav {
+  height: 60px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fffff2;
+}
+
+.logo {
+  font-size: 28px;
+  cursor: pointer;
+}
+
+.nav-links {
+  font-size: 15px;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
+.nav-links li {
+  margin-left: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.banner {
+  background: url("https://www.barbershop-graz.at/wp-content/uploads/2016/10/HOLYTIGER_149_c_Lupi_Spuma.jpg") no-repeat center center fixed;
+  background-size: cover;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.banner-content h1 {
+  font-size: 90px;
+  color: #61595B;
+  border: 10px solid #61595B
+}
+
+.banner-content h4 {
+  font-size: 30px;
+  color: #61595B;
+  margin: 0;
+}
+
+.banner-content button {
+  cursor: pointer;
+  background-color: #DBC9CF;
+  border: none;
+  margin-top: 50px;
+  font-size: 30px;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.definition-banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #DBC9CF;
+}
+
+.definition-content {
+  width: 300px;
+}
+
+.definition-content h3 {
+  font-size: 20px;
+  color: black;
+}
+
+.definition-content h4 {
+  font-size: 15px;
+  color: black;
+}
+
